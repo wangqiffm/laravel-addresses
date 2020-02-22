@@ -1,4 +1,4 @@
-# Rinvex Addresses
+# Rinvex Addresses (modified)
 
 **Rinvex Addresses** is a polymorphic Laravel package, for addressbook management. You can add addresses to any eloquent model with ease.
 
@@ -8,26 +8,27 @@
 [![StyleCI](https://styleci.io/repos/87485079/shield)](https://styleci.io/repos/87485079)
 [![License](https://img.shields.io/packagist/l/rinvex/laravel-addresses.svg?label=License&style=flat-square)](https://github.com/rinvex/laravel-addresses/blob/develop/LICENSE)
 
-
 ## Installation
 
 1. Install the package via composer:
+
     ```shell
     composer require rinvex/laravel-addresses
     ```
 
 2. Publish resources (migrations and config files):
+
     ```shell
     php artisan rinvex:publish:addresses
     ```
 
 3. Execute migrations via the following command:
+
     ```shell
     php artisan rinvex:migrate:addresses
     ```
 
 4. Done!
-
 
 ## Usage
 
@@ -113,20 +114,17 @@ $user = new \App\Models\User();
 $users = $user->lat('31.2467601')->lng('29.9020376')->within(5, 'kilometers')->get();
 ```
 
-
 ## Changelog
 
 Refer to the [Changelog](CHANGELOG.md) for a full history of the project.
-
 
 ## Support
 
 The following support channels are available at your fingertips:
 
-- [Chat on Slack](https://bit.ly/rinvex-slack)
-- [Help on Email](mailto:help@rinvex.com)
-- [Follow on Twitter](https://twitter.com/rinvex)
-
+-   [Chat on Slack](https://bit.ly/rinvex-slack)
+-   [Help on Email](mailto:help@rinvex.com)
+-   [Follow on Twitter](https://twitter.com/rinvex)
 
 ## Contributing & Protocols
 
@@ -134,22 +132,19 @@ Thank you for considering contributing to this project! The contribution guide c
 
 Bug reports, feature requests, and pull requests are very welcome.
 
-- [Versioning](CONTRIBUTING.md#versioning)
-- [Pull Requests](CONTRIBUTING.md#pull-requests)
-- [Coding Standards](CONTRIBUTING.md#coding-standards)
-- [Feature Requests](CONTRIBUTING.md#feature-requests)
-- [Git Flow](CONTRIBUTING.md#git-flow)
-
+-   [Versioning](CONTRIBUTING.md#versioning)
+-   [Pull Requests](CONTRIBUTING.md#pull-requests)
+-   [Coding Standards](CONTRIBUTING.md#coding-standards)
+-   [Feature Requests](CONTRIBUTING.md#feature-requests)
+-   [Git Flow](CONTRIBUTING.md#git-flow)
 
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within this project, please send an e-mail to [help@rinvex.com](help@rinvex.com). All security vulnerabilities will be promptly addressed.
 
-
 ## About Rinvex
 
 Rinvex is a software solutions startup, specialized in integrated enterprise solutions for SMEs established in Alexandria, Egypt since June 2016. We believe that our drive The Value, The Reach, and The Impact is what differentiates us and unleash the endless possibilities of our philosophy through the power of software. We like to call it Innovation At The Speed Of Life. That’s how we do our share of advancing humanity.
-
 
 ## License
 
